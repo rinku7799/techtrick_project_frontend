@@ -1,0 +1,36 @@
+.Hero-wrapper img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.Hero-wrapper {
+  position: relative;
+}
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: white;
+  opacity: 1;
+}
+
+.carousel-indicators .active{
+  background-color: var(--primaryColor);
+} 
+
+
+/* ------- hero-image ----------- */
+
+.Hero-image-wrapper img{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}

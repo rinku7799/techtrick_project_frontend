@@ -1,0 +1,33 @@
+.nursingSerivec .slick-prev:before,
+.nursingSerivec .slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nursingSerivec svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  background-color: #1d2023;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.nursingSerivec .slick-next {
+  right: 0px;
+}
+
+.nursingSerivec .slick-prev {
+  left: 0px;
+  z-index: 1;
+}
+
+/* .nursingSerivec .slick-dots .nursingSerivec li button:before {
+    display: none !important;
+} */

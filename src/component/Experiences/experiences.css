@@ -1,0 +1,156 @@
+.steps {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    flex: 1;
+    margin-left: -55px;
+}
+
+.step-progress {
+    width: 65px;
+    height: 65px;
+    max-width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.step-label {
+    font-size: 17px;
+    margin-left: -2px;
+    width: 110px;
+    text-align: center;
+}
+
+.progress {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 97%;
+    height: 3px;
+    margin-left: 50px;
+}
+
+.progress-bar::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: calc(100% - 80px);
+    background-color: #f7be16;
+    top: 13px;
+    position: absolute;
+    left: calc(-50% + 20px);
+    z-index: 0;
+}
+
+.progress-bar {
+    background-color: #dce0e4;
+    height: 5px;
+    width: 25%;
+
+}
+
+.card-body {
+    padding: 20px;
+}
+
+@media (max-width:450px) {
+    .step-item {
+        margin-left: -42px;
+    }
+
+    .step-progress {
+        width: 56px;
+        height: 56px;
+        margin-left: 70px;
+    }
+
+    .progress {
+        margin-left: 0px;
+        width: 114%;
+    }
+
+    .step-label {
+        font-size: 12px;
+        margin-left: 51px;
+        width: 68px;
+        margin-top: 6px;
+        text-align: center;
+    }
+
+    .Contrary {
+        font-size: 15px !important;
+    }
+
+    .Unforgettable {
+        font-size: 20px !important;
+    }
+
+}
+
+@media (max-width:390px) {
+    .step-item {
+        margin-left: -50px;
+    }
+
+    .step-progress {
+        width: 50px;
+        height: 50px;
+        margin-left: 52px;
+    }
+
+    .progress {
+        margin-left: 5px;
+        width: 115%;
+    }
+
+    .innericon {
+        width: 28px;
+    }
+}
+
+@media (max-width:430px) {
+    .step-item {
+        margin-left: -50px;
+    }
+
+    .step-progress {
+        width: 50px;
+        height: 50px;
+        margin-left: 52px;
+    }
+
+    .progress {
+        margin-left: 5px;
+        width: 110%;
+    }
+
+    .innericon {
+        width: 28px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1070px) {
+    .progress {
+        margin-left: 24px;
+        width: 105%;
+    }
+}
+
+@media (max-width:325px) {
+    .step-item {
+        margin-left: -58px;
+    }
+}

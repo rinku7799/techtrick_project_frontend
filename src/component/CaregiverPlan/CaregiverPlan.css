@@ -1,0 +1,49 @@
+.caregiver-plan-wrapper {
+  padding: 37px 94px;
+  background-color: #d8e7ff;
+}
+
+.caregiver-plan-wrapper h4 {
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.caregiver-plan-wrapper .card {
+  padding: 20px;
+  box-shadow: 0 0 11px rgba(162, 166, 173, 0.603);
+  cursor: pointer;
+}
+
+/* .caregiver-plan-wrapper .card:hover {
+  box-shadow: 0 0 11px rgba(4, 72, 209, 0.603);
+} */
+
+.caregiver-plan-wrapper .card:hover {
+  border: 1px solid var(--primaryColor);
+  /* .h2{ */
+    color: var(--primaryColor);
+  /* } */
+}
+
+.caregiver-plan-wrapper .hover-effect{
+  /* color: black; */
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caregiver-plan-wrapper p{
+  color: black;
+}
+
+.caregiver-plan-wrapper .card .hover-effect:hover{
+  color: var(--primaryColor);
+}
+
+@media (max-width: 647px) {
+  .caregiver-plan-wrapper {
+    padding: 37px 30px;
+    background-color: #d8e7ff;
+  }
+}

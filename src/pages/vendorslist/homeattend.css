@@ -1,0 +1,62 @@
+.homeattend .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    z-index: 10;
+}
+
+.homeattend nav {
+    padding-right: 0 !important;
+}
+
+.homeattend .dropdown-menu:active {
+    --bs-dropdown-link-active-bg: none;
+}
+
+@media (max-width:992px) {
+    .borderleft {
+        border-left: none !important;
+    }
+
+    .service {
+        margin-top: 10px;
+    }
+}
+
+.homeattend .dropdown-menu {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(-1.5px, 41px, 0px) !important;
+}
+
+/* .homeattend .dropdown-toggle:hover{
+        border: none !important;
+        outline: none;
+} */
+.btnborder:hover {
+    border: none !important;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.homeattend .dropdown-toggle::after {
+    display: none;
+}
+
+.homeattend .dropdown-toggle:hover {
+    background-color: white !important;
+}
+
+.homeattend .btn:hover {
+    border-color: white !important;
+}
+
+.homeattend .btn.show {
+    border-color: white !important;
+    background-color: white !important;
+}

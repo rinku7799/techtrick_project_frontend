@@ -1,0 +1,40 @@
+.details-all-equipment-wrapper {
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+
+.details-all-equipment-wrapper h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.details-all-equipment-slider {
+    padding: 20px;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .img-wrap {
+    background-color: #D8E7FF;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .img-wrap img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .card-body img{
+    width: 20px;
+    height: 20px;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .card-body .name{
+    font-weight: bold;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .card-body .medal{
+    font-size: 11px;
+}
+
+.details-all-equipment-wrapper .details-all-equipment-slider .card-body .price{
+    font-weight: bold;
+}

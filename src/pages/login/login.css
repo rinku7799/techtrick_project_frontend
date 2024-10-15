@@ -1,0 +1,22 @@
+
+.otp-input {
+    border: 1px solid #ced4da !important;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .otp-input:focus {
+    border-color: #80bdff;
+    /* outline: none; */
+  }
+  
+  .primary-bg-color {
+    background-color: #007bff; 
+  }
+  
+  .text-light {
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,12 @@
+/* Add this CSS to your stylesheet */
+.custom-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.foremployee  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -20px;
+    z-index: 10;
+}

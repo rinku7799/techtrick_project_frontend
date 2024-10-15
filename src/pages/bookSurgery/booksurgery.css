@@ -1,0 +1,17 @@
+.colfocus {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.colfocus:hover {
+  background-color: var(--primaryColor) !important;
+  color: white;
+}
+.colfocus:hover .colfocus-img {
+  filter: invert(100%) !important;
+}
+
+
+

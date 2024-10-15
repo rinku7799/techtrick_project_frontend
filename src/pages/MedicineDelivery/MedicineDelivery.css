@@ -1,0 +1,9 @@
+
+
+@media (max-width:576px) {
+    .prescription{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+}

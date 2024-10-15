@@ -1,0 +1,62 @@
+.hospitaldetail .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    z-index: 10;
+}
+
+.hospitaldetail nav {
+    padding-right: 0 !important;
+}
+
+.hospitaldetail .dropdown-menu:active {
+    --bs-dropdown-link-active-bg: none;
+}
+
+@media (max-width:992px) {
+    .borderleft {
+        border-left: none !important;
+    }
+
+    .service {
+        margin-top: 10px;
+    }
+}
+
+.hospitaldetail .dropdown-menu {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(-1.5px, 41px, 0px) !important;
+}
+
+/* .hospitaldetail .dropdown-toggle:hover{
+        border: none !important;
+        outline: none;
+} */
+.btnborder:hover {
+    border: none !important;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.hospitaldetail .dropdown-toggle::after {
+    display: none;
+}
+
+.hospitaldetail .dropdown-toggle:hover {
+    background-color: white !important;
+}
+
+.hospitaldetail .btn:hover {
+    border-color: white !important;
+}
+
+.hospitaldetail .btn.show {
+    border-color: white !important;
+    background-color: white !important;
+}

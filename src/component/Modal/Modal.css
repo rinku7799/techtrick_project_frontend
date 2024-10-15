@@ -1,0 +1,170 @@
+.modal-1-wrapper {
+}
+
+.img-modal {
+  width: 100%;
+  position: relative;
+  border-radius: 7px 7px 0px 0px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal-header .btn-close {
+  /* padding: calc(var(--bs-modal-header-padding-y)* .5) calc(var(--bs-modal-header-padding-x)* .5); */
+  margin: calc(-0.5 * var(--bs-modal-header-padding-y))
+    calc(-0.5 * var(--bs-modal-header-padding-x))
+    calc(-0.5 * var(--bs-modal-header-padding-y)) auto;
+  position: absolute;
+  right: 14px;
+  top: 9px;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: var(--bs-modal-title-line-height);
+  width: 100%;
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  border-bottom: var(--bs-modal-header-border-width) solid
+    var(--bs-modal-header-border-color);
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+/* ---------------------------------------- */
+
+.validation-modal span {
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+.validation-modal .modal-dialog {
+  max-width: 470px;
+  padding: 0px;
+}
+
+/* ---------------------------------------- */
+
+.data-and-time-modal .date-top {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.data-and-time-modal .text-header {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.data-and-time-modal .header-color {
+  background-color: #d8e7ff;
+}
+
+.data-and-time-modal .card-2 {
+  padding: 10px;
+  background-color: var(--lightgrayColor);
+}
+
+.data-and-time-modal .card-body {
+  flex: 1 1 auto;
+  padding: 10px;
+  color: var(--bs-card-color);
+}
+
+.data-and-time-modal .time-text {
+  font-size: small;
+  font-weight: bold;
+}
+
+.data-and-time-modal h5 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.data-and-time-modal p {
+  font-size: 12px;
+}
+
+.data-and-time-modal .date-top .month {
+  font-size: small;
+}
+
+/* --------------------------------------- */
+
+.Payment-modal .header-color {
+  background-color: #d8e7ff;
+}
+
+.Payment-modal .text-header {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Payment-modal .image {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Payment-modal h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Payment-modal h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Payment-modal p {
+  font-size: 10px;
+}
+
+.Payment-modal .card-3 {
+  padding: 5px;
+}
+
+.Payment-modal .back-color {
+  background-color: #d8e7ff;
+  font-size: 10px;
+}
+
+.Payment-modal .card-4 {
+  padding: 10px;
+}
+
+.Payment-modal .text-bold {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Payment-modal .text-lights {
+  color: #666666;
+}
+
+.Payment-modal .text-smal {
+  font-size: small;
+}
+
+/* ..............................foremployeeeee..................... */
+
+.foremployeeform .modal-dialog {
+  max-width: 1000px;
+  padding: 0px;
+}
+/* .........................applyjobseeksmodel........................ */
+
+.applyjobseekersmodel .modal-dialog {
+  max-width: 800px;
+  padding: 0px;
+}
+.bookyourlabmodel .modal-dialog {
+  max-width: 600px;
+  padding: 0px;
+}

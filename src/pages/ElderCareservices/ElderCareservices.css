@@ -1,0 +1,44 @@
+
+.eldercareservices  .inner-text1 {
+    position: absolute;
+    top: calc(30% + 70px);
+    left: 50%;
+    transform: translate(-50%, 60%);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    width: 80%;
+  }
+  .eldercareservices .card {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .eldercareservices .inner-img {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 80px;
+    height: 80px;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  .eldercareservices .inner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 200px;
+  }

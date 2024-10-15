@@ -1,0 +1,175 @@
+.background-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+}
+.location{
+    border-right: none !important;
+}
+.location:focus{
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width:998px) {
+    .setimage{
+        display: none;
+    }
+    
+}
+.css-1u9des2-indicatorSeparator{
+    display: none;
+}
+.css-b62m3t-container{
+    border: none !important;
+}
+.css-13cymwt-control{
+    padding: 10px;
+    border-radius: 30px !important;
+    width: 100% !important;
+}
+.css-t3ipsp-control{
+    padding: 10px;
+    border-radius: 30px !important;
+}
+.css-1nmdiq5-menu{
+    z-index: 12 !important;
+}
+
+.background-image-wrapper .vector-1{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 30px;
+}
+
+.background-image-wrapper .vector-1 img {
+    width: 30px;
+}
+
+.background-image-wrapper .vector-2{
+    position: absolute;
+    margin-left: -20px;
+    width: 20px;
+}
+
+.background-image-wrapper .vector-2 img {
+    width: 30px;
+}
+/* ...........................LicensedVocationalNurse............................. */
+
+.CertifiedNursingAssistant  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 10;
+}
+.RegisterNursefile  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 10;
+}
+
+.magwheelchair  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    z-index: 10;
+}
+
+.pathlab  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 10;
+}
+.hospitaldetail .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 10;
+}
+
+.pilessurgery .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    z-index: 10;
+}
+
+/* nursing service page css physotherapy  */
+.service-plan-wrapper{
+    display: none;
+}
+  .tab-item {
+    flex: 1 1 auto; 
+    max-width: 250px; 
+  }
+  
+  .tab-link {
+    display: flex;
+    align-items: center;
+    width: auto;
+    /* padding: 1rem; */
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-content {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  .tab-image {
+    max-width: 95px;
+    aspect-ratio: 10/7;
+    /* margin-bottom: 0.5rem; */
+    border-radius: 8px;
+  }
+  
+  .tab-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tab-item.active .tab-link {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .tab-item.active .tab-text {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .tab-container {
+      justify-content: center;
+    }
+  
+    .tab-item {
+      flex: 1 1 100%;
+    }
+  }
+  .history-tab{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  

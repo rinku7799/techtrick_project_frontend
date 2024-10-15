@@ -1,0 +1,6 @@
+.MyProfile .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 10;
+}

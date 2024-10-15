@@ -1,0 +1,24 @@
+.forjobseekers  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    z-index: 10;
+}
+.forjobseekersapplynow  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    z-index: 10;
+}
+
+@media (max-width:920px) {
+    .applynow{
+        justify-content: center !important;
+    }
+}
+
+@media (max-width:520px) {
+    .applynow{
+        justify-content: end !important;
+    }
+}

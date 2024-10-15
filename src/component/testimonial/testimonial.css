@@ -1,0 +1,61 @@
+.testimonial .slick-prev:before, .testimonial  .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+.testimonial .slick-next:before {
+    position: absolute;
+    left: -20px;
+}
+.testimonial .slick-prev:before{
+    position: absolute;
+    left: 0px;
+}
+.testimonial .slick-dots{
+    position: absolute;
+    bottom: -4px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.testimonial .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 17px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    content: '🔷';
+    text-align: center;
+    opacity: .25;
+    color: #879fcc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 20px;
+  }
+  .testimonial .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0759f3;
+  }
+  .testimonial  svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    background-color: #1D2023;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.testimonial .slick-next {
+    right: -5px;
+}
+.testimonial .slick-prev {
+    left: -5px;
+    z-index: 1;
+}

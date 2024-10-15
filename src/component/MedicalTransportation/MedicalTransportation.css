@@ -1,0 +1,48 @@
+
+.form {
+    position: relative;
+}
+.form .search {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #9ca3af;
+}
+.form span {
+
+    position: absolute;
+    right: 16px;
+    top: 3px;
+    padding: 2px;
+    color: black;
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+ box-shadow: none;
+    border: none;
+}
+
+.colorwhite::placeholder {
+    color: white; 
+}
+
+@media (max-width:770px) {
+    .ambulanceimg{
+        display: none;
+    }
+}

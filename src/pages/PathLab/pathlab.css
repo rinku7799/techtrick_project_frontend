@@ -1,0 +1,36 @@
+.pathlab .slick-prev:before,
+.pathlab .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.pathlab svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    background-color: #1D2023;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.pathlab .slick-next {
+    right: -7px !important;
+}
+
+.pathlab .slick-prev {
+    left: -10px !important;
+    z-index: 1;
+}
+.pathlab  .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    z-index: 10;
+}

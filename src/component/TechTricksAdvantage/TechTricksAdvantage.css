@@ -1,0 +1,59 @@
+.tech-tricks-advantage-wrapper {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .tech-tricks-advantage-wrapper .text-div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 5px -1px rgba(7, 5, 5, 0.616);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .tech-tricks-advantage-wrapper h5 {
+    font-weight: 600;
+  }
+  
+  .tech-tricks-advantage-wrapper .image-div {
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px -1px rgba(7, 5, 5, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .tech-tricks-advantage-wrapper .image-div img {
+    width: 100%;
+    max-height: 228px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 1190px) {
+    .tech-tricks-advantage-wrapper .text-div,
+    .tech-tricks-advantage-wrapper .image-div {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .tech-tricks-advantage-wrapper .text-div,
+    .tech-tricks-advantage-wrapper .image-div {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 698px) {
+    .tech-tricks-advantage-wrapper .text-div,
+    .tech-tricks-advantage-wrapper .image-div {
+      height: auto;
+    }
+  }
+  

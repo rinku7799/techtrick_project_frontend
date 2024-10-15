@@ -1,0 +1,47 @@
+.physical-therapy-wrapper {
+  padding: 30px 0px;
+  /* background-color: #d8e7ff; */
+}
+
+.physical-therapy-wrapper .image {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.physical-therapy-wrapper .therapy-img {
+  padding: 5px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color: white;
+}
+
+.physical-therapy-wrapper .text {
+  font-weight: 500;
+}
+
+.physical-therapy-wrapper .text-1 {
+  font-weight: bold;
+}
+
+.physical-therapy-wrapper .icon {
+  background-color: var(--primaryColor);
+  color: white;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.physical-therapy-wrapper .borderTop{
+  border-top: 1px solid rgb(216, 213, 213);
+}
+
+.physical-therapy-wrapper .card-shadow{
+  box-shadow: 0 2px 5px -1px rgba(7, 5, 5, 0.616);
+}
+
+.physical-therapy-wrapper .image-1{
+  width: 40px;
+}

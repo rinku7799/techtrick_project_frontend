@@ -1,0 +1,41 @@
+.action:hover {
+    background-color: white !important;
+    
+  }
+  .ReactFlagsSelect-module_selectBtn__19wW7 {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-family: inherit;
+    color: #4d4d4d;
+    border: thin solid rgba(77, 77, 77, 0.3);
+    border-radius: 4px;
+    background: transparent;
+    border: none !important;
+  }
+  .ReactFlagsSelect-module_label__27pw9,
+  .ReactFlagsSelect-module_secondaryLabel__37t1D {
+    font-size: 1em;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: none;
+  }
+  .flag svg {
+    vertical-align: middle;
+    border-radius: 40%;
+    font-size: 2rem;
+  }
+  
+  .mobile-wrapper {
+    padding: 20px 0px 0px 0px;
+    background-color: #d8e7ff;
+  }
+  
+  .mobile-wrapper h4 {
+    font-size: 30px;
+  }
+  

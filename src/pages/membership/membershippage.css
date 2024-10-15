@@ -1,0 +1,72 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-top: -50px;
+}
+
+@media (max-width: 990px) {
+  .tabs {
+    margin-top: 0px;
+    justify-content: center;
+  }
+  .textcenter {
+    text-align: center;
+  }
+}
+.tabs > section {
+  order: 999;
+  width: 100%;
+  display: none;
+}
+.tabs > input {
+  opacity: 0;
+  position: absolute;
+}
+.tabs > input[type="radio"]:checked + label + section {
+  display: unset;
+}
+.tabs > label {
+  padding: 0.5em 1em;
+  background: white;
+  border-right: 1px solid #798f99;
+}
+.tabs > label:last-of-type {
+  border-right: none;
+}
+.tabs > input[type="radio"]:checked + label {
+  background: var(--primaryColor);
+}
+
+.tabs > input:nth-child(1) + label {
+  border-radius: 20px 0 0 20px !important;
+}
+.tabs > label:last-of-type {
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.circular-container {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .membershippage .getquote {
+    width: 182px;
+    font-size: 11px;
+  }
+}

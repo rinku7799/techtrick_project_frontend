@@ -1,0 +1,48 @@
+ .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 85px;
+    z-index: 10;
+  }
+  
+  @media (max-width: 630px) {
+    .breadcrumb-wrapper {
+      position: absolute;
+      margin-top: 27px;
+      margin-left: 22px;
+      z-index: 10;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .breadcrumb-wrapper .breadcrumb{
+      font-size: 12px;
+    }
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: var(--primaryColor);
+    content: "\f285";
+    font-family: bootstrap-icons !important;
+    font-size: 0.75rem;
+    position: relative;
+    top: 3px;
+    float: left;
+    padding-right: 0.5rem;
+  }
+  
+  .breadcrumb-wrapper .breadcrumb .breadcrumb-item {
+    font-weight: 100;
+    line-height: 1;
+   
+  }
+  
+  .breadcrumb-wrapper .breadcrumb .breadcrumb-item.active {
+    color: black;
+  }
+  
+  .breadcrumb-item .link-1 {
+    color: var(--primaryColor);
+    text-decoration: none;
+  }
+  

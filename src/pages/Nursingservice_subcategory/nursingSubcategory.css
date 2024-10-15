@@ -1,0 +1,102 @@
+.nursingSubcategory .card {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.nursingSubcategory .card-img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 9 / 6;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.nursingSubcategory .inner-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  width: 90px;
+  height: 90px;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.nursingSubcategory .card .inner-img {
+  opacity: 1;
+}
+
+.nursingSubcategory .card .card-img {
+  filter: brightness(0.5);
+}
+
+.nursingSubcategory .card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.nursingSubcategory .inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 231px;
+}
+
+.nursingSubcategory .inner-text1 {
+  position: absolute;
+  top: calc(50% + 40px);
+  left: 50%;
+  transform: translate(-50%, 60%);
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.line {
+  position: absolute;
+  width: 93%;
+  height: 90%;
+  margin-left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.nursingSubcategorylast {
+  max-width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+.nursingSubcategory .breadcrumb-wrapper {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 10;
+}
+
+.nursingSubcategory .text-1 {
+  font-size: 40px;
+}
+
+@media (max-width: 992px) {
+    .nursingSubcategory .text-1 {
+        font-size: 30px;
+      }
+}
+
+@media (max-width: 500px) {
+    .nursingSubcategory .text-1 {
+        font-size: 25px;
+      }
+}

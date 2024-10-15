@@ -1,0 +1,164 @@
+.booking-appointment-wrapper {
+  padding: 20px 0px;
+  background-color: #f9f9f9;
+}
+
+.booking-appointment-wrapper h1 {
+  font-size: 3rem;
+}
+
+.booking-appointment-wrapper h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 1200px) {
+  .booking-appointment-wrapper h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .booking-appointment-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .booking-appointment-wrapper h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) {
+  .booking-appointment-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .booking-appointment-wrapper h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+.booking-appointment-wrapper .box {
+  border: 1px solid #D6D6D6;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  padding: 8px;
+  gap: 10px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.booking-appointment-wrapper .text-sm {
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width:768px) {
+  .booking-appointment-wrapper .text-sm {
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+}
+
+.booking-appointment-wrapper .form {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* _________________________________________________ */
+
+.booking-appointment-physiothereapy-wrapper {
+  padding: 30px 0px;
+  background-color: #f9f9f9;
+}
+
+.booking-appointment-physiothereapy-wrapper .card-1 {
+  font-size: 36px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #d8e7ff;
+}
+
+
+.booking-appointment-physiothereapy-wrapper .card-2 {
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 0 11px rgba(201, 203, 205, 0.603);
+}
+
+.booking-appointment-physiothereapy-wrapper .text {
+  font-weight: bold;
+  font-size: large;
+}
+
+.booking-appointment-physiothereapy-wrapper .text-2 {
+  font-weight: bold;
+  font-size: large;
+  color: #f79333;
+}
+
+.booking-appointment-physiothereapy-wrapper .text-2 span {
+  font-weight: bold;
+  font-size: small;
+}
+
+.booking-appointment-physiothereapy-wrapper .text-3 {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.booking-appointment-physiothereapy-wrapper .text-4 {
+  font-size: small;
+}
+
+.booking-appointment-physiothereapy-wrapper .icon {
+  background-color: var(--primaryColor);
+  color: white;
+  /* padding: 5px; */
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.booking-appointment-physiothereapy-wrapper .form {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* ...................medicalstaffingservice.................................. */
+
+.medicalbookappoinment .form {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.medicalbookappoinment img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card-body {
+  flex-grow: 1; 
+}
+
+.card-footer {
+  margin-top: auto; 
+}

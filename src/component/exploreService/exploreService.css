@@ -1,0 +1,144 @@
+.exploreService .card-container {
+  position: relative;
+  /* padding: 0 10px; */
+}
+
+.exploreService .card {
+  position: relative;
+  width: 210px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.exploreService .card-img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.exploreService .inner-img {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+
+}
+
+.exploreService .card .inner-img {
+  opacity: 1;
+}
+
+.exploreService .slick-track{
+  display: flex;
+  gap: 25px;
+}
+.exploreService .card .card-img {
+  filter: brightness(0.5);
+
+}
+
+.exploreService .card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.exploreService .inner-text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 200px;
+}
+
+.exploreService .inner-text1 {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width:345px) {
+  .exploreService .card {
+    width: 100%;
+  }
+  .exploreService .inner-img {
+    position: absolute;
+    left: 108px !important;
+  }
+}
+
+
+@media (max-width:390px) {
+  .exploreService .card {
+    width: 100%;
+  }
+  .exploreService .inner-img {
+    position: absolute;
+    left: 138px !important;
+  }
+  .exploreService .inner-text{
+    position: absolute;
+    left: 40%;   
+  }
+  .exploreService .inner-text1{
+    position: absolute;
+    left: 40%;
+  }
+}
+
+@media (max-width:430px) {
+  .exploreService .card {
+    width: 100%;
+  }
+  .exploreService .inner-img {
+    position: absolute;
+    left: 145px;
+  }
+}
+.container .exploreService{
+  z-index: -1 !important;
+}
+
+.exploreService .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 17px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #879fcc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 20px;
+}
+
+.exploreService .slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #0759f3;
+}
+
+.exploreService .slick-prev:before,
+.exploreService .slick-next:before {
+  display: none !important;
+}
+
+.exploreService .slick-prev,
+.exploreService .slick-next {
+  display: none !important;
+}

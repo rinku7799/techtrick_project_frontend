@@ -1,0 +1,240 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.relition-set-position{
+  position: relative;
+}
+.emergency-care-card-wrapper .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.emergency-care-card-wrapper {
+  position: absolute !important;
+  z-index: 10;
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
+}
+
+.emerycency-tabtext {
+  transition: color 0.3s ease;
+}
+.emerycency-tabtext:hover {
+  color: var(--primaryColor) !important;
+}
+
+.history-tab .nav-link.active .emerycency-tabtext {
+  color: white !important;
+}
+
+@media (max-width: 992px) {
+  .emergency-care-card-wrapper {
+    background-color: #f9f9f9;
+    position: relative;
+  }
+}
+
+.emergency-care-card-wrapper .shadowl {
+  border: 1px solid rgb(190, 188, 188);
+  box-shadow: 0 2px 5px -1px rgba(7, 5, 5, 0.616);
+}
+
+.nav-pills .nav-link {
+  border-radius: var(--bs-nav-pills-border-radius);
+  background: white;
+  border: none;
+}
+
+/* -------------------- Rpo and Manpower Service --------------------- */
+
+.healthCare-rpo-text-wrapper {
+  padding: 20px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+.healthCare-rpo-text-wrapper h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.benefit-rpo-wrapper {
+  /* background-color: #f9f9f9; */
+  padding: 10px 0px;
+}
+
+.benefit-rpo-wrapper h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.expert-solution-team {
+  padding: 20px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+.expert-solution-team h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-rpo-partnership h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* -----------------   academic-Medical-center-recruting    ---------------------- */
+
+.academic-Medical-center-recruting-text1 {
+  padding: 20px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+/* -------------------------- cut-your-travel-nursing-cost --------------------- */
+
+.cut-your-travel-nursing-cost-text {
+  padding: 20px 0px;
+}
+
+.cut-your-travel-nursing-cost-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------------- falility-management-service- ------------------------- */
+
+.facility-management-service-text1 {
+  padding: 20px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+.facility-management-service-text1 h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.facility-management-service-text2 {
+  padding: 20px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+.facility-management-service-text2 h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* -------------------    house-keeping-services     ----------------------- */
+
+.house-keeping-services-wrapper {
+  padding: 30px 0px;
+  /* background-color: #f9f9f9; */
+}
+
+.house-keeping-services-wrapper h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ------------------------ corporate-house-keeping ------------------------ */
+
+.corporate-house-keeping-text {
+  padding: 30px;
+}
+
+.corporate-house-keeping-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* -------------------- hospital-house-keeping ---------------------- */
+
+.hospital-house-keeping-wrapper {
+  padding: 30px 0px;
+}
+
+.hospital-house-keeping-wrapper h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*  ----------------- business-support service ----------------------- */
+
+.business-support-service-text {
+  padding: 30px 0px;
+}
+
+.business-support-service-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* --------------------- nursing-help-desk ---------------------- */
+
+.nursing-help-desk-text {
+  padding: 30px 0px;
+}
+
+.nursing-help-desk-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* --------------------- medical-equipment  ---------------------- */
+
+.medical-equipment-text {
+  padding: 30px 0px;
+  background-color: #f9f9f9;
+}
+
+.medical-equipment-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ---------------------  equipment-details --------------------- */
+
+.equipment-details-text {
+  padding: 30px 0px;
+  background-color: #f9f9f9;
+}
+
+.equipment-details-text h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.equipment-details-text span {
+  font-weight: bold;
+}
+
+/* ........button animation.................. */
+/* .grow_ellipse {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .grow_ellipse::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    background-color:rgba(84, 175, 211, 0.452); 
+    line-height: 8.34em;
+    transform: scale(0, 0);
+    transition: transform 0.3s ease; 
+    color: black !important;
+  }
+  
+  .grow_ellipse:hover::after {
+    transform: scale(1, 1);
+  }
+  .grow_ellipse:hover{
+    color: black;
+  } */

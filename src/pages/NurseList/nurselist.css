@@ -1,0 +1,45 @@
+.nurselist .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    z-index: 10;
+}
+
+.nurselist nav {
+    padding-right: 0 !important;
+}
+
+.nurselist .dropdown-menu:active {
+    --bs-dropdown-link-active-bg: none;
+}
+
+.nurselist .dropdown-menu {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(-1.5px, 41px, 0px) !important;
+}
+
+.nurselist .form {
+    padding: 25px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.modal-dialog {
+    max-width: 650px;
+}
+
+.nurselist .dropdown::after {
+    display: none;
+}
+ 
+.nurselist .dropdown:hover {
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.nurselist .dropdown.show {
+    border-color: white !important;
+    background-color: white !important;
+}

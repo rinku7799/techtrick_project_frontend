@@ -1,0 +1,45 @@
+.detail .breadcrumb-wrapper {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -20px;
+    z-index: 10;
+}
+
+@media (max-width:998px) {
+    .detail1 {
+        /* margin: 20px; */
+    }
+}
+
+.detail1 {
+    margin-top: "90px" !important;
+}
+progress {
+    position: relative;
+    height: 3px;
+  }
+  
+  progress::before,
+  progress::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  progress::before {
+    width: 100%;
+    background: #F0F0F0;
+  }
+  
+  progress::after {
+    width: 25%;
+    background: var(--primaryColor);
+  }
+
+  @media (max-width:500px) {
+    .closebtn{
+        margin: 10px;
+    }
+  }
